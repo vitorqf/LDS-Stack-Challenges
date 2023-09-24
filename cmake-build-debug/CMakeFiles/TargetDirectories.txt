@@ -1,0 +1,3 @@
+/home/grommash/CLionProjects/stack_challenges/cmake-build-debug/CMakeFiles/stack_challenges.dir
+/home/grommash/CLionProjects/stack_challenges/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/grommash/CLionProjects/stack_challenges/cmake-build-debug/CMakeFiles/rebuild_cache.dir
