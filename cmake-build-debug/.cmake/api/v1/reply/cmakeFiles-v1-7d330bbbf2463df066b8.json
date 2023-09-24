@@ -49,6 +49,21 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "/var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -125,8 +140,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/grommash/CLionProjects/stack_challenges/cmake-build-debug",
-		"source" : "/home/grommash/CLionProjects/stack_challenges"
+		"build" : "/home/medivh/CLionProjects/LDS-Stack-Challenges/cmake-build-debug",
+		"source" : "/home/medivh/CLionProjects/LDS-Stack-Challenges"
 	},
 	"version" : 
 	{

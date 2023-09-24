@@ -12,18 +12,19 @@ using namespace std;
 
 class Node {
 public:
+    int data;
     Node *next;
 };
 
 class Stack {
 private:
     Node *top;
+    int count;
 
 public:
-    int count;
     Stack() {
-        this->top = nullptr;
-        this->count = 0;
+        top = nullptr;
+        count = 0;
     }
 
     bool isEmpty() {
@@ -33,31 +34,40 @@ public:
     void push(int element) {
         Node *new_node = new Node();
         new_node->next = nullptr;
+        new_node->data = element;
 
-        if (this->isEmpty()) {
-            this->top = new_node;
+        if (isEmpty()) {
+            top = new_node;
+        } else {
+           new_node->next = top;
+            top = new_node;
         }
 
-        new_node->next = top;
-        this->top = new_node;
-
-        this->count++;
+        count++;
     };
 
     void pop() {
-        if (this->isEmpty()) {
+        if (isEmpty()) {
             cout << "A pilha está vazia, impossível remover.";
-            exit(EXIT_FAILURE);
+            exit(1);
+        } else {
+            Node *temp;
+
+            temp = this->top;
+            top = this->top->next;
+            count--;
+            delete(temp);
         }
-
-        Node *tmp;
-
-        tmp = this->top;
-        this->top = this->top->next;
-
-        this->count--;
-        delete(tmp);
     };
+
+    void display() {
+        Node *temp = top;
+
+        while (temp != nullptr) {
+            cout << temp->data << endl;
+            temp = temp->next;
+        }
+    }
 };
 
 

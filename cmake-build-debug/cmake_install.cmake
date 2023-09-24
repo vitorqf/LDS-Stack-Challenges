@@ -1,4 +1,4 @@
-# Install script for directory: /home/grommash/CLionProjects/stack_challenges
+# Install script for directory: /home/medivh/CLionProjects/LDS-Stack-Challenges
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/grommash/CLionProjects/stack_challenges/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/medivh/CLionProjects/LDS-Stack-Challenges/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

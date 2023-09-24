@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/stack_challenges.dir/main.cpp.o -o stack_challenges 
